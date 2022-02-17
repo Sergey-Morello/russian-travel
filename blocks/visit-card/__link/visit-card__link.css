@@ -1,0 +1,33 @@
+.visit-card__link {
+    position: relative;
+    align-self: end;
+    text-decoration: underline;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .visit-card__link::before {
+    position: absolute;
+    content: "URL";
+    top: -25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #aaa;
+  }
+
+  .visit-card__link:hover {
+    transform: scale(1.05);
+    transition: .2s linear;
+  }
+
+  @media screen and (max-width: 769px) {
+    .visit-card__link {
+      align-self: start;
+    }
+  }
