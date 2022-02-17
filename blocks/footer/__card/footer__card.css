@@ -1,0 +1,24 @@
+.footer__card {
+    position: relative;
+    margin: 0 auto 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 740px;
+    color: #fff;
+    background: url(../../../images/__footer-background.jpg) 0 0/cover no-repeat;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .footer__card {
+      height: 500px;
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    .footer__card {
+      height: 500px;
+      color: #fff;
+    }
+  }

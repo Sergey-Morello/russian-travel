@@ -1,0 +1,8 @@
+.visit-card__paragraph {
+    padding: 0;
+    margin:  0 0 30px;
+  }
+
+  .visit-card__paragraph:last-child {
+    margin:  0;
+  }

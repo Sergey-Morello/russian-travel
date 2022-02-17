@@ -1,0 +1,14 @@
+.visit-card {
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content) 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 45px;
+    grid-column-gap: 20px;
+  }
+
+  @media screen and (max-width: 769px) {
+    .visit-card {
+      display: flex;
+      flex-direction: column;
+    }
+  }

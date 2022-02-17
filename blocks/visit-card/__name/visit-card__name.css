@@ -1,0 +1,14 @@
+.visit-card__name {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.1;
+  }
+
+  @media screen and (max-width: 426px) {
+    .visit-card__name {
+      font-size: 34px;
+    }
+  }
