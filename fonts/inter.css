@@ -165,7 +165,10 @@ Usage:
   font-weight: 100 900;
   font-display: swap;
   font-style: normal;
+<<<<<<< HEAD
   font-named-instance: 'Regular';
+=======
+>>>>>>> 0a9885fe25ad9da542df952c111e37d153df71aa
   src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
 }
 @font-face {
@@ -173,7 +176,10 @@ Usage:
   font-weight: 100 900;
   font-display: swap;
   font-style: italic;
+<<<<<<< HEAD
   font-named-instance: 'Italic';
+=======
+>>>>>>> 0a9885fe25ad9da542df952c111e37d153df71aa
   src: url("Inter-italic.var.woff2?v=3.19") format("woff2");
 }
 
