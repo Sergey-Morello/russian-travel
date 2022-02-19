@@ -1,12 +1,7 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1184px;
-  }
-  
-  .footer:hover .footer__card-overlay {
-    opacity: .5;
-    transition: .2s linear;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1184px;
+}

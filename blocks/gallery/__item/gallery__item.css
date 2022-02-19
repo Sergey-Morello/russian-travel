@@ -1,9 +1,11 @@
 .gallery__item {
     max-width: 284px;
     max-height: 213px;
+    overflow: hidden;
   }
 
   .gallery__item:hover {
     transform: scale(1.1);
     transition: .2s linear;
   }
+
