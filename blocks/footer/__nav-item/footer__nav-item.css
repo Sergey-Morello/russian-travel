@@ -1,5 +1,9 @@
 .footer__nav-item {
     margin-left: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.12;
   }
 
   .footer__nav-item:first-child {
@@ -8,7 +12,8 @@
 
   @media screen and (max-width: 426px) {
    .footer__nav-item {
-     font-size: 20px;
+     font-size: 24px;
+     line-height: 1;
      margin: 0 auto 15px 0;
    }
  }

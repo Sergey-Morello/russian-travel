@@ -7,8 +7,14 @@
     line-height: 1.1;
   }
 
+  @media screen and (max-width: 769px) {
+    .visit-card__name {
+      font-size: 42px;
+    }
+  }
+
   @media screen and (max-width: 426px) {
     .visit-card__name {
-      font-size: 34px;
+      font-size: 32px;
     }
   }

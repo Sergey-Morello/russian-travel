@@ -1,24 +1,11 @@
 .baikal__card {
-    position: relative;
-    margin: 0 auto 70px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 740px;
+    height: 100%;
     color: #fff;
-    background: url(../../../images/__baikal-background.jpg) 0 0/cover no-repeat;
   }
 
-  @media screen and (max-width: 1024px) {
-    .baikal__card {
-      height: 500px;
-    }
-  }
 
-  @media screen and (max-width: 769px) {
-    .baikal__card {
-      height: 500px;
-      color: #fff;
-    }
-  }
