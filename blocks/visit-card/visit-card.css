@@ -3,12 +3,11 @@
     grid-template-rows: minmax(min-content, max-content) 1fr;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 45px;
-    grid-column-gap: 20px;
+    grid-column-gap: 30px;
   }
 
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 426px) {
     .visit-card {
-      display: flex;
-      flex-direction: column;
+      grid-template-columns: 1fr;
     }
   }

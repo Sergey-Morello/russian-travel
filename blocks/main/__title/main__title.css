@@ -9,16 +9,9 @@
     text-align: center;
   }
 
-  @media screen and (max-width: 769px) {
-    .main__title {
-      margin-bottom: 20px;
-      font-size: 46px;
-    }
-  }
-
   @media screen and (max-width: 426px) {
     .main__title {
       margin-bottom: 15px;
-      font-size: 38px;
+      font-size: 40px;
     }
   }

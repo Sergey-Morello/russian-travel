@@ -1,4 +1,4 @@
-.baikal__card-text {
+.banner__card-text {
     padding: 0;
     margin: 0;
     max-width: 360px;
@@ -6,10 +6,12 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 1.2;
+    text-align: center;
+    z-index: 2;
   }
 
   @media screen and (max-width: 426px) {
-    .baikal__card-text {
+    .banner__card-text {
       font-size: 14px;
     }
   }

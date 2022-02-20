@@ -2,3 +2,8 @@
     text-decoration: none;
     color: #fff;
   }
+
+  .link:hover {
+    color: aquamarine;
+    transition: .2s linear;
+  }

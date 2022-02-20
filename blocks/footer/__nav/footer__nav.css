@@ -1,15 +1,17 @@
 .footer__nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: 60px;
   }
 
   @media screen and (max-width: 769px) {
     .footer__nav {
       height: 100%;
       flex-direction: column;
-      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    .footer__nav {
+      margin-bottom: 50px;
     }
   }

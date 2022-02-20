@@ -3,3 +3,10 @@
     flex-direction: column;
     margin: 0 auto 80px;
   }
+
+
+  @media screen and (max-width: 426px) {
+    .main {
+      margin-bottom: 64px;
+    }
+  }

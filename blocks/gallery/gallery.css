@@ -5,3 +5,9 @@
     margin: 0 auto 70px;
     max-width: 1184px;
   }
+
+  @media screen and (max-width: 426px) {
+    .gallery {
+      padding: 0 15px;
+    }
+  }

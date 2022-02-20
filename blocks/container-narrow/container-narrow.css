@@ -1,4 +1,17 @@
 .container-narrow {
     max-width: 984px;
     padding: 0 30px;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .container-narrow {
+      max-width: 928px;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    .container-narrow {
+      padding: 0 15px;
+    }
   }

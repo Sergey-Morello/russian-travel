@@ -1,0 +1,10 @@
+.visit-card__suptitle {
+  padding: 0;
+  margin: 0 0 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #aaa;
+}

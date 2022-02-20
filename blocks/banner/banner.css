@@ -1,33 +1,32 @@
-.baikal {
+.banner {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
-  max-width: 1184px;
-  height: 740px;
-  background: url(../../images/__baikal-background.jpg) 0 0/cover no-repeat;
+  min-height: 740px;
 }
 
-.baikal:hover .baikal__card-overlay {
-  opacity: .5;
+.banner:hover .banner__card::after {
+  opacity: .8;
   transition: .2s linear;
 }
 
 @media screen and (max-width: 1024px) {
-  .baikal {
-    height: 640px;
+  .banner {
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 769px) {
-  .baikal {
-    height: 480px;
+  .banner {
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 426px) {
-  .baikal {
-    height: 200px;
+  .banner {
+    min-height: 200px;
   }
 }
