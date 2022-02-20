@@ -6,7 +6,7 @@
   margin: 0 auto;
   max-width: 1184px;
   height: 740px;
-  background: url(../../../images/__baikal-background.jpg) 0 0/cover no-repeat;
+  background: url(../../images/__baikal-background.jpg) 0 0/cover no-repeat;
 }
 
 .baikal:hover .baikal__card-overlay {
