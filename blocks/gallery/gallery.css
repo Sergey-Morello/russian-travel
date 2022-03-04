@@ -2,12 +2,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto 70px;
+    margin: 0 auto 80px;
     max-width: 1184px;
   }
 
-  @media screen and (max-width: 426px) {
+  @media screen and (max-width: 1024px) {
     .gallery {
-      padding: 0 15px;
+      padding: 0 50px;
     }
   }
+
+  @media screen and (max-width: 769px) {
+    .gallery {
+      padding: 0 5px;
+      margin-bottom: 90px;
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    .gallery {
+      margin-bottom: 55px;
+    }
+  }
+

@@ -21,3 +21,10 @@
       font-size: 32px;
     }
   }
+
+  @media screen and (max-width: 321px) {
+    .banner__card-title {
+      max-width: 240px;
+      margin-bottom: 10px;
+    }
+  }

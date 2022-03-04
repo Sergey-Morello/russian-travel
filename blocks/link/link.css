@@ -4,6 +4,6 @@
   }
 
   .link:hover {
-    color: aquamarine;
+    opacity: 0.8;
     transition: .2s linear;
   }

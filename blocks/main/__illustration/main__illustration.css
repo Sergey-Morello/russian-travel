@@ -1,3 +1,17 @@
 .main__illustration {
-    width: 100%;
+    max-width: 984px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .main__illustration {
+      max-width: 928px;
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    .main__illustration {
+      width: 100%;
+    }
   }

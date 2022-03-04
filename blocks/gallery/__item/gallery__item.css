@@ -10,3 +10,12 @@
     max-height: 264px;
   }
 }
+
+@media screen and (max-width: 321px) {
+  .gallery__item {
+    margin-bottom: -7px;
+  }
+  .gallery__item:last-child {
+    margin-bottom: 0;
+  }
+}

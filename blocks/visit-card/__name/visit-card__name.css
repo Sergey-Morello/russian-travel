@@ -11,11 +11,13 @@
   @media screen and (max-width: 769px) {
     .visit-card__name {
       font-size: 42px;
+      letter-spacing: -0.6px;
     }
   }
 
   @media screen and (max-width: 426px) {
     .visit-card__name {
       font-size: 32px;
+      margin-bottom: -10px;
     }
   }

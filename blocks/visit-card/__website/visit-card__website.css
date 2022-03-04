@@ -2,7 +2,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 320px) {
   .visit-card__website {
     align-self: start;
   }
